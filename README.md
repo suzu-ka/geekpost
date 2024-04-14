@@ -1,4 +1,4 @@
-<strong>Geeksalon 学習コンテンツの課題</strong><br>
+<strong>GeekSalon 学習コンテンツの課題</strong><br>
 <br>
 オンラインスクールで制作した課題になります。<br>
 <br>
