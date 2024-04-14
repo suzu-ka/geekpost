@@ -1,0 +1,18 @@
+<h3>新規投稿ページ</h3>
+<%= form_for(@post, :url => { controller:'posts', action:'create'})do |f| %>
+<div class="field">
+ <div class="place-field">
+  <%= f.label :place %><br>
+  <%= f.text_field :place,size: 50%>
+ </div>
+
+ <div class = "content-field">
+  <%= f.label :content %><br>
+  <%= f.text_area :content, :size => "50x5" %>
+ </div>
+</div>
+
+<div class="action">
+<%= f.submit %>
+</div>
+<% end %>
